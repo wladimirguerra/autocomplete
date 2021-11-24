@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput renders correctly 1`] = `
+<input
+  className="autocomplete-text-input"
+  style={
+    Object {
+      "padding": 8,
+    }
+  }
+  type="text"
+/>
+`;

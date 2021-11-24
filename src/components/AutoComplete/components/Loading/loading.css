@@ -1,0 +1,31 @@
+/*
+The following pulse effect was obtained from
+https://www.florin-pop.com/blog/2019/03/css-pulse-effect/
+and edited by me
+*/
+
+.loading {
+    border-radius: 50%;
+    opacity: 0.4;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.40);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.8);
+    }
+
+    60% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.40);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+

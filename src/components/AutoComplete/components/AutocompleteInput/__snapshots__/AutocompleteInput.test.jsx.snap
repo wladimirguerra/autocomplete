@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutocompleteInput is focused 1`] = `
+<DocumentFragment>
+  <div
+    class="autocomplete-input"
+    style="background-color: rgb(228, 255, 226); border-color: #13bb00; border-radius: 8px;"
+  >
+    <div
+      style="flex: 1;"
+    >
+      <input
+        class="autocomplete-text-input"
+        data-testid="autocomplete-input-container"
+        style="padding: 8px;"
+        type="text"
+      />
+    </div>
+    <div
+      style="visibility: hidden;"
+    >
+      <div
+        class="loading"
+        style="background-color: rgb(224, 130, 23); margin: 8px; height: 16px; width: 16px;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AutocompleteInput loading signal render correctly 1`] = `
+<div
+  className="autocomplete-input"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderColor": "#13bb00",
+      "borderRadius": 8,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <input
+      className="autocomplete-text-input"
+      data-testid="autocomplete-input-container"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      style={
+        Object {
+          "padding": 8,
+        }
+      }
+      type="text"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "visibility": "visible",
+      }
+    }
+  >
+    <div
+      className="loading"
+      style={
+        Object {
+          "backgroundColor": "#e08217",
+          "height": 16,
+          "margin": 8,
+          "width": 16,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`AutocompleteInput renders correctly 1`] = `
+<div
+  className="autocomplete-input"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderColor": "#13bb00",
+      "borderRadius": 8,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <input
+      className="autocomplete-text-input"
+      data-testid="autocomplete-input-container"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      style={
+        Object {
+          "padding": 8,
+        }
+      }
+      type="text"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "visibility": "hidden",
+      }
+    }
+  >
+    <div
+      className="loading"
+      style={
+        Object {
+          "backgroundColor": "#e08217",
+          "height": 16,
+          "margin": 8,
+          "width": 16,
+        }
+      }
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+.autocomplete-text-input {
+    border: none !important;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+}
+
+.autocomplete-text-input:focus {
+    border: none;
+    outline: none;
+}
