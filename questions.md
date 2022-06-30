@@ -27,7 +27,7 @@ Components that be updated by context change are not `PureComponent`.
 
 A good practice is to respect a rule that a `PureComponent` child must be always a `PureComponent`.
 
-## 3. Descrybe 3 ways to pass _information_ from a component to its parent
+## 3. Describe 3 ways to pass _information_ from a component to its parent
 
 ### Throught a callback property
 
